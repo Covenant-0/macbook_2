@@ -1,0 +1,115 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black; 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+.container{
+    /* background-color: black; */
+    width: 85vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+}
+.box-1{
+    background-color: white;
+    width: 55vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.box-2{
+    background-image: url(back.png);
+    width: 487px;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.name1, .name2, .email, .gender, .password, .pass, .level, .level1{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 25%;
+    
+}
+.name, .line,.line2, .levels{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+} 
+.gen{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    width: 72%;
+    margin-left: 25px;
+}
+h1{
+    margin-left: 50px;
+    margin-top: 35px;
+    color: rgb(118, 184, 206);
+}
+.form{
+    margin-left: 25px;
+}
+label{
+    margin-bottom: 5px;
+    /* font-size: 22px; */
+    font-weight: 600;
+}
+button{
+    width: 12vw;
+    height: 5vh;
+    background-color: rgb(76, 104, 196);
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+}
+#about{
+    margin-bottom: 50px;
+}
+.btn{
+    margin-left: 27vw;
+}
+img{
+    width: 4vw;
+    height: 8vh;
+}
+.img{
+    margin-left: 36vw;
+    margin-top: 50px;
+}
+h2, p{
+    color: white;
+}
+h2{
+    text-align: right;
+    margin-top: 50px;
+    margin-bottom: 450px;
+    margin-right: 25px;
+    font-weight: 600;
+}
+p{
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 600;
+}
+input{
+    padding: 8px;
+}

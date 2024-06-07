@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="box-1">
+                <div class="img">
+                <img src="logo.png" alt="logo">
+                </div>
+                <h1>Sign Up</h1>
+                <div class="form">
+                    <div class="name">
+                        <div class="name1">                  
+                         <label for="firstName">First Name</label>
+                         <input type="text" id="firstName" name="firstName" required><br>
+                        </div>
+                        <div class="name2">
+                            <label for="lastName">Last name</label>
+                            <input type="text" id="lastName" name="lastName" required><br>
+                        </div>
+                    </div>
+                    <div class="line">
+                        <div class="email">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required><br>
+                        </div>
+                        <div class="gender">
+                            <label for="gender">Gender</label>
+                            <div class="gen">
+                            <input type="radio" id="male" value="male" name="gender" checked>
+                            <label for="male">Male</label>
+                            <input type="radio" id="female" value="female" name="gender">
+                            <label for="female">Female</label>
+                            <input type="radio" id="other" value="other" name="gender">
+                            <label for="male">Other</label><br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="line2">
+                        <div class="password">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                        <div class="pass">
+                            <label for="confirm_password">Confirm Password</label>
+                            <input type="password" id="confirm_password" name="confirm_password" required><br>
+                        </div>
+                    </div>
+                    <div class="levels">
+                        <div class="level">
+                            <label for="educational_level">Educational Level</label>
+                            <select name="educational_level" id="educational_level" required>
+                                <option value="beginner">Beginner</option>
+                                <option value="intermediate">Intermediate</option>
+                                <option value="advanced">Advanced</option>
+                            </select><br>
+                        </div>
+                        <div class="level1">
+                            <label for="experience_level">Experience Level</label>
+                            <select name="experience_level" id="experience_level" required>
+                                <option value="0-1year">0-1 year</option>
+                                <option value="2years">2 years</option>
+                                <option value="3years">3 years</option>
+                            </select><br>
+                        </div>
+                    </div>
+                    <div class="about">
+                        <label for="about">Tell us about you</label>
+                        <input type="text" id="about" name="about" required>
+                    </div>
+                </div>
+                <div class="btn">
+                    <button>Create Account</button>
+                </div>
+            </div>
+            <div class="box-2">
+                <div class="text">
+                    <h2>KodeCamp</h2>
+                    <p>
+                        JOIN OUR NEXT COHORT
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
